@@ -3,7 +3,7 @@ use bridgelet_shared::{AccountStatus, Payment};
 use soroban_sdk::{contracttype, Address, Env, Map};
 
 #[contracttype]
-pub enum DataKey {
+pub enum audit {
     Initialized,
     Creator,
     ExpiryLedger,
